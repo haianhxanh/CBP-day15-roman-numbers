@@ -1,0 +1,51 @@
+
+body {
+  background-color: rgb(150, 178, 179);
+  font-family: 'Cinzel', serif;
+}
+
+.calculator-div {
+  margin: 15%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin: 0% 20%;
+  padding: 3%;
+  font-family: 'Cinzel', serif;
+  background-color: rgba(19, 101, 104, 0.616);
+  border: none;
+  color: white;
+  font-size: larger;
+  text-align: right;
+  
+}
+
+.input-div--modify {
+  background-color: tomato;
+}
+
+::placeholder {
+  color: rgba(245, 245, 245, 0.651);
+  font-weight: 200;
+  font-size: medium;
+  text-align: center;
+}
+
+
+.output-div {
+  height: 3rem;
+  width: 15rem;
+  align-self: center;
+  text-align: center;
+  font-size: 1.5em;
+  font-weight: bold;
+  
+}
+
+/* p {
+  font-size: large;
+  font-weight: bold;
+} */
